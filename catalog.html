@@ -41,7 +41,7 @@
 
   </header>
   <main>
-    <div>
+    <section>
       <img src="#" alt="index.background">
       <h1>Гостиницы Седоны</h1>
       <fieldset class="catalog-filter-group">
@@ -98,10 +98,19 @@
         </li>
         </ul>
       </fieldset>
-      <!--Штука про стоимость с полнузком-->
+      <!--Штука про стоимость с полнузком, её, наверно через ID надо связывать со стоимостью-->
+      <b>Стоимость, ₽:</b>
+      <form>
+        <!--Не могу понять, как сделать "от"  и "до" не жирными-->
+        <p><input name="#" type="text" style="font-weight: bold;" value="0"></p>
+        <p><input name="#" type="text" style="font-weight: bold;" value="9000"></p>
+       </form>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
       <button class="#" type="button">Применить</button>
       <button class="#" type="button">Сбросить</button>
-    </div>
+    </section>
 
     <select class="select-control" aria-label="Сортировка">
       <!--Найдено 38 гостиниц-->
