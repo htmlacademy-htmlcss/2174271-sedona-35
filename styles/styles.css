@@ -13,3 +13,9 @@
   font-style: normal;
   font-display: swap;
 }
+
+body {
+  font-size: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
