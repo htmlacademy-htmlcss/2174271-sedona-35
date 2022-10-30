@@ -199,41 +199,38 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.subsribe {
-  /*Что здесь за фон должен быть?*/
-  background-image: url("../images/");
+.subscribe {
+  background-image: url("../images/subscribe.png");
   text-align: center;
 }
 
-.subsribe-title {
+.subscribe-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  background-color: #82B3D3;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.subsribe-description {
+.subscribe-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  background-color: #82B3D3;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.subsribe-form {}
+.subscribe-form {}
 
-.subsribe-label {}
+.subscribe-label {}
 
-.subsribe-form-input {}
+.subscribe-form-input {}
 
-.subsribe-form-button {
+.subscribe-form-button {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
