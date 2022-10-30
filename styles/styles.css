@@ -22,6 +22,14 @@ body {
   background-color: #ffffff;
 }
 
+.button {
+  font-size: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .header {}
 
 .header-navigation {}
@@ -33,7 +41,6 @@ body {
 .header-navigation-item {}
 
 .header-navigation-link {
-  font-family: "PT Sans", sans-serif;
   color: #000000;
   background-color: #ffffff;
   font-size: 20px;
@@ -54,7 +61,6 @@ body {
 .header-user-favorites {}
 
 .header-user-booking {
-  font-family: "PT Sans", sans-serif;
   background-color: #756157;
   color: #ffffff;
   font-weight: 700;
@@ -91,7 +97,6 @@ body {
 .intro-logo {}
 
 .advantages {
-  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
@@ -156,7 +161,6 @@ body {
 }
 
 .search {
-  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
@@ -186,7 +190,6 @@ body {
 }
 
 .subsribe {
-  font-family: "PT Sans", sans-serif;
   /*Что здесь за фон должен быть?*/
   background-image: url("../images/");
   text-align: center;
@@ -216,7 +219,6 @@ body {
 .subsribe-form-input {}
 
 .subsribe-form-button {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -228,7 +230,6 @@ body {
 .catalog-main {}
 
 .filter {
-  font-family: "PT Sans", sans-serif;
   background-color: #82B3D3;
   color: #ffffff;
   text-align: left;
@@ -249,7 +250,6 @@ body {
 .breadcrumbs-link {}
 
 .breadcrumbs-link-page {
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -262,7 +262,6 @@ body {
 .filter-catalog-group {}
 
 .filter-catalog-group-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -314,7 +313,6 @@ body {
 .filter-button-range {}
 
 .form-buttons {
-  font-family: "PT Sans", sans-serif;
 }
 
 .form-button-submit {
@@ -338,9 +336,7 @@ body {
   background-color: #82B3D3;
 }
 
-.results {
-  font-family: "PT Sans", sans-serif;
-}
+.results {}
 
 .results-sort {
   background-color: #ffffff;
@@ -442,7 +438,6 @@ body {
 .pagination-container {}
 
 .pagination {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -472,7 +467,6 @@ body {
 }
 
 .footer-phone-link {
-  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
