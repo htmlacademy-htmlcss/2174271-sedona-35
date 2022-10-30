@@ -69,11 +69,12 @@ body {
 
 .intro-logo {}
 
-.advantages {}
+.advantages {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
 
 .advantages-title {
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
   color: #000000;
   background-color: #ffffff;
   text-transform: uppercase;
@@ -83,8 +84,6 @@ body {
 }
 
 .advantages-description {
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
   color: #333333;
   background-color: #ffffff;
   font-weight: 400;
@@ -95,8 +94,6 @@ body {
 .advantages-card {}
 
 .advantages-card-content {
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
   color: #FFFFFF;
   background-color: #82B3D3;
 }
@@ -117,8 +114,6 @@ body {
 .advantages-card-img {}
 
 .advantages-list {
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -140,8 +135,8 @@ body {
 }
 
 .search {
-  text-align: center;
   font-family: "PT Sans", sans-serif;
+  text-align: center;
 }
 
 .search-title {
@@ -173,6 +168,7 @@ body {
   font-family: "PT Sans", sans-serif;
   /*Что здесь за фон должен быть?*/
   background-image: url("../images/");
+  text-align: center;
 }
 
 .subsribe-title {
@@ -182,7 +178,6 @@ body {
   background-color: #82B3D3;
   text-transform: uppercase;
   color: #FFFFFF;
-  text-align: center;
 }
 
 .subsribe-description {
@@ -191,7 +186,6 @@ body {
   line-height: 26px;
   background-color: #82B3D3;
   color: #FFFFFF;
-  text-align: center;
 }
 
 .subsribe-form {}
@@ -207,7 +201,6 @@ body {
   line-height: 36px;
   background-color: #82B3D3;
   text-transform: uppercase;
-  text-align: center;
   color: #ffffff;
 }
 /*Страница каталога*/
@@ -299,10 +292,11 @@ body {
 
 .filter-button-range {}
 
-.form-buttons {}
+.form-buttons {
+  font-family: "PT Sans", sans-serif;
+}
 
 .form-button-submit {
-  font-family: "PT Sans", sans-serif;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -314,7 +308,6 @@ body {
 }
 
 .form-button-reset {
-  font-family: "PT Sans", sans-serif;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -360,7 +353,6 @@ body {
 .results-card {}
 
 .results-card-link {
-  font-family: "PT Sans", sans-serif;
   text-decoration: none;
 }
 
