@@ -46,7 +46,7 @@ body {
 }
 
 .button-blue {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .button-green {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 .button-grey {
@@ -156,8 +156,8 @@ body {
 .advantages-card {}
 
 .advantages-card-content {
-  color: #FFFFFF;
-  background-color: #82B3D3;
+  color: #ffffff;
+  background-color: #82b3d3;
 }
 
 .advantages-card-title {
@@ -325,8 +325,7 @@ body {
   flex-wrap: wrap;
 }
 
-.filter-catalog-group {
-}
+.filter-catalog-group {}
 
 .filter-catalog-group-title {
   font-weight: 700;
@@ -379,8 +378,7 @@ body {
 
 .filter-button-range {}
 
-.form-buttons {
-}
+.form-buttons {}
 
 .form-button-submit {
   color: #ffffff;
@@ -504,7 +502,7 @@ body {
 .pagination-link {
   text-decoration: none;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .pagination-current {
@@ -512,8 +510,7 @@ body {
   color: #000000;
 }
 /*footer после страницы каталога*/
-.footer-social-list {
-}
+.footer-social-list {}
 
 .footer-social-link {
   text-decoration: none;
