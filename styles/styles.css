@@ -127,6 +127,7 @@ body {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  text-align: center;
 }
 
 .intro-logo {}
@@ -187,7 +188,7 @@ body {
 .service-list-item {
   background-color: rgba(131, 179, 211, 0.12);
   padding: 50px;
-  width: 400;
+  width: 400px;
 }
 
 .advantages-list-item:nth-last-child(even) {
