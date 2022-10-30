@@ -47,6 +47,16 @@ body {
  background-color: #756157;
 }
 
+.button-green {
+  background-color: #7DB54F;
+}
+
+.button-grey {}
+
+.button-transparent {
+  background-color: transparent;
+}
+
 .header {}
 
 .header-navigation {}
@@ -105,7 +115,7 @@ body {
 /*Тут должен быть еще вектор, как его вставить, если под него не прописала отдельный класс в разметке?*/
 .intro {
   background-color: #ffffff;
-  background-image: url(../images/index-background.jpg);
+  background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -206,6 +216,8 @@ body {
 .subscribe {
   background-image: url("../images/subscribe.png");
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .subscribe-title {
@@ -240,7 +252,9 @@ body {
 .catalog-main {}
 
 .filter {
-  background-color: #82B3D3;
+  background-image: url("../images/background-filter.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   color: #ffffff;
 }
 
@@ -342,7 +356,6 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #82B3D3;
 }
 
 .results {}
@@ -420,10 +433,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: black;
-}
-
-.button-green {
-  background-color: #7DB54F;
 }
 
 .results-card-star-reit {}
