@@ -273,6 +273,9 @@ body {
 
 .search {
   text-align: center;
+  margin: 0;
+  height: 408px;
+  padding: 96px 304px 96px 304px;
 }
 
 .search-title {
@@ -303,6 +306,8 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  height: 414.86px;
+  padding: 96px 258px 104px 258px;
 }
 
 .subscribe-title {
