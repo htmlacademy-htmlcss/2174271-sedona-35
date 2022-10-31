@@ -84,12 +84,13 @@ body {
   display: flex;
 }
 
-.header-navigation-logo {}
+.header-navigation-logo {
+  margin-right: 30px;
+}
 
 .header-navigation-logo-img {}
 
 .header-navigation-list {
-  width: 349px;
   margin-left: 30px;
   padding: 0;
 }
@@ -106,7 +107,6 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
-
 }
 
 .header-user-container {
@@ -155,8 +155,7 @@ body {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  text-align: center;
-  height: 485px;
+  padding: 51px 371px 82px 371px;
 }
 
 .intro-logo {
@@ -170,7 +169,7 @@ body {
 }
 
 .advantages-header {
-  height: 282px;
+  padding: 69px 279px 90px 275px;
 }
 
 .advantages-title {
@@ -180,8 +179,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  width: 620px;
-  margin: 0 auto;
+  margin: 0 0 25px 0;
   text-align: center;
 }
 
@@ -191,9 +189,8 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
-  width: 651px;
 }
 
 .advantages-card {
@@ -208,7 +205,6 @@ body {
   background-color: #82b3d3;
   text-align: center;
   width: 400px;
-  height: 384px;
   padding: 92px 85px 111px 85px;
 }
 
@@ -217,12 +213,14 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 0 0 62px 0;
 }
 
 .advantages-card-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin: 0;
 }
 
 .advantages-card-img {}
@@ -239,9 +237,7 @@ body {
 .advantages-list-item,
 .service-list-item {
   background-color: rgba(131, 179, 211, 0.12);
-  padding: 50px;
   width: 400px;
-  height: 384px;
   text-align: center;
   padding: 103px 85px 121px 85px;
 }
@@ -261,6 +257,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
+  margin: 0 0 62px 0;
 }
 
 .advantages-item-description,
@@ -269,12 +266,12 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  margin: 0;
 }
 
 .search {
   text-align: center;
   margin: 0;
-  height: 408px;
   padding: 96px 304px 96px 304px;
 }
 
@@ -284,6 +281,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  margin: 0 0 20px 0;
 }
 
 .search-description {
@@ -291,6 +289,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  margin: 0 0 54px 0;
 }
 
 .search-button {
@@ -306,7 +305,6 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 414.86px;
   padding: 96px 258px 104px 258px;
 }
 
@@ -316,6 +314,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0 0 20px 0;
 }
 
 .subscribe-description {
@@ -323,6 +322,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #ffffff;
+  margin: 0 0 54px 0;
 }
 
 .subscribe-form {}
@@ -339,22 +339,32 @@ body {
   color: #ffffff;
 }
 /*Страница каталога*/
-.catalog-main {}
+.catalog-main {
+  flex-grow: 1;
+}
 
 .filter {
   background-image: url("../images/background-filter.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: #ffffff;
-  padding: 35px 70px 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 70px 70px 70px;
 }
 
-.filter-head {}
+.filter-head {
+  display: flex;
+  flex-direction: column;
+}
 
 .filter-head-title {
+  margin: 0;
+  padding: 0;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  width: 494.4px;
 }
 
 .breadcrumbs {
@@ -363,6 +373,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  width: 114px;
 }
 
 .breadcrumbs-item {}
@@ -378,14 +389,19 @@ body {
 }
 
 .filter-form {
-  margin: 0;
+  display: flex;
+  justify-content: space-around;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
 }
-
-.filter-catalog-group {}
+/*Радиокнопки выпадают из div,если задаю широту,не поняла, как решить эту проблему*/
+.filter-catalog-group {
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
 
 .filter-catalog-group-title {
   font-weight: 700;
@@ -410,9 +426,14 @@ body {
 
 .filter-catalog-list {}
 
-.filter-control-radio {}
+.filter-control-radio {
 
-.filter-catalog-price {}
+}
+
+.filter-catalog-price {
+  width: 288px;
+  border: 0;
+}
 
 .filter-catalog-price-title {
   font-weight: 700;
@@ -438,7 +459,10 @@ body {
 
 .filter-button-range {}
 
-.form-buttons {}
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+}
 
 .form-button-submit {
   color: #ffffff;
@@ -458,10 +482,13 @@ body {
   text-transform: uppercase;
 }
 
-.results {}
+.results {
+  padding: 50px 70px 60px 70px;
+}
 
 .results-sort {
   background-color: #ffffff;
+  display: flex;
 }
 
 .results-sort-title {
@@ -470,6 +497,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
 }
 
 .results-sort-select {}
@@ -481,13 +509,42 @@ body {
   color: #333333;
 }
 
-.results-sort-button {}
-
-.results-list {
-  background-color: #ffffff;
+.results-sort-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.results-card {}
+.results-sort-item {
+  margin: 0;
+}
+
+.results-sort-item-button {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.results-list {
+  margin: 0 0 40px 0;
+  padding: 0 0 40px 0;
+  list-style: none;
+  border-bottom: 1px solid #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.results-card {
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
 
 .results-card-link {
   text-decoration: none;
@@ -552,17 +609,27 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 60px);
+  gap: 8px;
 }
 
 .pagination-item {
 }
 
 .pagination-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #ffffff;
   background-color: #82b3d3;
+  width: 60px;
+  height: 60px;
 }
 
 .pagination-current {
@@ -570,7 +637,18 @@ body {
   color: #000000;
 }
 /*footer после страницы каталога*/
-.footer-social-list {}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 45px 70px 35px 70px ;
+}
+
+.footer-social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .footer-social-link {
   text-decoration: none;
@@ -585,6 +663,10 @@ body {
   background-color: #ffffff;
   color: #000000;
   text-decoration: none;
+  width: 720px;
 }
 
-.footer-academy-link {}
+.footer-academy-link {
+  width: 115px;
+  margin-left: auto;
+}
