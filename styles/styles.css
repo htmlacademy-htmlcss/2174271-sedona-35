@@ -44,7 +44,7 @@ body {
 }
 
 .button {
-  font-size: inherit;
+  font-family: inherit;
   text-transform: uppercase;
   border: none;
   border-radius: 4px;
@@ -652,6 +652,12 @@ body {
 
 .footer-social-link {
   text-decoration: none;
+  display: flex;
+  width: 47px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #82b3d3;
 }
 
 .footer-phone-link {
