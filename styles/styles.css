@@ -19,6 +19,10 @@ html {
 }
 
 body {
+  margin: 0;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -70,15 +74,26 @@ body {
   background-color: transparent;
 }
 
-.header {}
+.header {
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+}
 
-.header-navigation {}
+.header-navigation {
+  display: flex;
+}
 
 .header-navigation-logo {}
 
-.header-navigation-list {}
+.header-navigation-list {
+  width: 349px;
+  margin-left: 30px;
+  padding: 0;
+}
 
-.header-navigation-item {}
+.header-navigation-item {
+}
 
 .header-navigation-link {
   color: #000000;
@@ -92,7 +107,12 @@ body {
 
 }
 
-.header-user-container {}
+.header-user-container {
+  display: flex;
+  max-width: 278px;
+  padding: 0;
+  margin-left: auto;
+}
 
 .header-user-control {}
 
@@ -123,7 +143,9 @@ body {
   clip-path: inset(100%);
 }
 
-.index-main {}
+.index-main {
+  flex-grow: 1;
+}
 
 /*Тут должен быть еще вектор, как его вставить, если под него не прописала отдельный класс в разметке?*/
 .intro {
