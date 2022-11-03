@@ -509,7 +509,7 @@ body {
 }
 
 .subscribe-label {
-  position: relative;
+
 }
 
 .subscribe-form-input {
@@ -517,25 +517,17 @@ body {
   min-height: 52px;
   margin: 0;
   border: none;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   padding: 14px 20px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-}
-
-.subscribe-form-img {
-  position: absolute;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-  opacity: 0.3;
-  padding: 2px 2px 3px;
-  margin-top: 16px;
-  margin-left: 367px;
+  background-size: 20px;
+  background-position: right 65px top 16px;
 }
 
 .subscribe-form-button {
@@ -547,7 +539,7 @@ body {
   padding: 8px 50px;
   margin: 0;
   border: none;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
 }
 /*Страница каталога*/
 .catalog-main {
