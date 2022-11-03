@@ -93,9 +93,12 @@ body {
 .header-navigation-list {
   margin-left: 30px;
   padding: 0;
+  display: flex;
 }
 
 .header-navigation-item {
+  list-style-type: none;
+
 }
 
 .header-navigation-link {
@@ -107,6 +110,7 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
+  padding: 20px 16px;
 }
 
 .header-user-container {
@@ -114,13 +118,19 @@ body {
   max-width: 278px;
   padding: 0;
   margin-left: auto;
+  list-style: none;
 }
 
-.header-user-control {}
+.header-user-control {
+}
 
-.header-user-search {}
+.header-user-search {
+  color: #000000;
+}
 
-.header-user-favorites {}
+.header-user-favorites {
+color: #000000;
+}
 
 .header-user-booking {
   color: #ffffff;
@@ -344,7 +354,7 @@ body {
 }
 
 .filter {
-  background-image: url("../images/background-filter.png");
+  background-image: url("../images/background-filter.png.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: #ffffff;
@@ -528,6 +538,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
+  color: #000000;
 }
 
 .results-list {
@@ -648,6 +659,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .footer-social-link {
@@ -658,6 +670,10 @@ body {
   align-items: center;
   justify-content: center;
   color: #82b3d3;
+}
+
+.footer-social-item {
+
 }
 
 .footer-phone-link {
