@@ -78,22 +78,28 @@ body {
   width: 1060px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .header-navigation {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .header-navigation-logo {
   margin-right: 30px;
+
+
 }
 
-.header-navigation-logo-img {}
+.header-navigation-logo-img {
+}
 
 .header-navigation-list {
   margin-left: 30px;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .header-navigation-item {
@@ -115,13 +121,16 @@ body {
 
 .header-user-container {
   display: flex;
-  max-width: 278px;
+  flex-wrap: wrap;
   padding: 0;
-  margin-left: auto;
+  margin:0;
   list-style: none;
 }
 
 .header-user-control {
+  min-width: 44px;
+  min-height: 64px;
+  padding: 22px 12px;
 }
 
 .header-user-search {
@@ -129,11 +138,20 @@ body {
 }
 
 .header-user-favorites {
-color: #000000;
+  color: #000000;
+}
+
+.header-user-search,
+.header-user-favorites {
+
 }
 
 .header-user-booking {
   color: #ffffff;
+  padding: 8px 34px;
+}
+
+.header-user-booking-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -660,6 +678,7 @@ color: #000000;
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-social-link {
@@ -691,4 +710,5 @@ color: #000000;
 .footer-academy-link {
   width: 115px;
   margin-left: auto;
+  color: #000000;
 }
