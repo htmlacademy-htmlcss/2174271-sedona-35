@@ -479,9 +479,9 @@ body {
 .subscribe {
   background-color: #3f5c74;
   background-image: url('../images/subscribe.png');
+  background-size: 100% 100%;
   text-align: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
   padding: 96px 258px 104px 258px;
   margin: 0;
 }
@@ -511,6 +511,7 @@ body {
   line-height: 26px;
   color: #ffffff;
   margin: 0 0 54px 0;
+  padding: 20px 70px 0;
 }
 
 .subscribe-inner .subscribe-description {
