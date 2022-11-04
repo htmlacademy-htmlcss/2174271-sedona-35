@@ -47,64 +47,50 @@
             <h1 class="filter-head-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="#"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z" fill="white"/>
-                  <path d="M4.5 10.5001H5.5V8.00005H7.5V10.5001H8.5V7.00005H4.5V10.5001Z" fill="white"/>
-                  </svg></a>
+                <a class="breadcrumbs-link-icon" href="index.html"></a>
               </li>
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="#"><svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6.91526 4.96875L2.16526 0.71875C1.91526 0.46875 1.41526 0.46875 1.04026 0.71875C0.665263 0.96875 0.790263 1.46875 1.04026 1.71875L5.16526 5.46875L1.16526 9.21875C0.915263 9.46875 0.915263 9.96875 1.16526 10.2188C1.16526 10.3438 1.54026 10.4687 1.66526 10.4687C1.79026 10.4687 2.04026 10.3438 2.16526 10.2188L6.91526 5.96875C7.29026 5.71875 7.29026 5.21875 6.91526 4.96875Z" fill="white"/>
-                  </svg></a>
-              </li>
-              <li>
-                <a class="breadcrumbs-link-page" href="#">Гостиницы</a>
+              <li class="breadcrumbs-item-page">
+                <a class="breadcrumbs-link-page" href="catalog.html">Гостиницы</a>
               </li>
             </ul>
           </div>
           <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
             <fieldset class="filter-catalog-group">
-              <legend class="filter-catalog-group-title">Инфраструктура</legend>
+              <legend class="filter-catalog-group-title">Инфраструктура:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <label class="filter-catalog-control">
-                    <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="pool" checked>
-                    <span class="filter-control-text">Бассейн</span>
+                  <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="pool" checked>
+                  <label class="filter-catalog-control">Бассейн
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <label class="filter-catalog-control">
-                    <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="parking" checked>
-                    <span class="filter-control-text">Парковка</span>
+                  <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="parking" checked>
+                  <label class="filter-catalog-control">Парковка
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <label class="filter-catalog-control">
-                    <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="wi-fi">
-                    <span class="filter-control-text">Wi-Fi</span>
+                  <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="wi-fi">
+                  <label class="filter-catalog-control">Wi-Fi
                   </label>
                 </li>
               </ul>
             </fieldset>
             <fieldset class="filter-catalog-group">
-              <legend class="filter-catalog-group-title">Тип жилья</legend>
+              <legend class="filter-catalog-group-title">Тип жилья:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <label class="filter-catalog-control">
-                    <input class="filter-control-radio" type="radio" name="type-of-housing" value="hotel" checked>
-                    <span class="filter-control-text">Гостиница</span>
+                  <input class="filter-control-radio" type="radio" name="type-of-housing" value="hotel" checked>
+                  <label class="filter-catalog-radio-label">Гостиница
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <label class="filter-catalog-control">
-                    <input class="filter-control-radio" type="radio" name="type-of-housing" value="motel">
-                    <span class="filter-control-text">Мотель</span>
+                  <input class="filter-control-radio" type="radio" name="type-of-housing" value="motel">
+                  <label class="filter-catalog-radio-label">Мотель
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <label class="filter-catalog-control">
-                    <input class="filter-control-radio" type="radio" name="type-of-housing" value="apartment">
-                    <span class="filter-control-text">Апартаменты</span>
+                  <input class="filter-control-radio" type="radio" name="type-of-housing" value="apartment">
+                  <label class="filter-catalog-radio-label">Апартаменты
                   </label>
                 </li>
               </ul>
@@ -140,63 +126,20 @@
           <div class="results-sort">
             <p class="results-sort-title">Найдено гостиниц: 38</p>
             <select class="results-sort-select" name="types" id="#">
-              <option class="results-sort-select-item" value="cheap">Сначала дешёвое</option>
-              <option class="results-sort-select-item" value="expensive">Сначала дорогое</option>
+              <option class="results-sort-select-item" value="cheap">Сначала дешевые</option>
+              <option class="results-sort-select-item" value="expensive">Сначала дорогие</option>
             </select>
             <ul class="results-sort-list">
               <li class="results-sort-item">
-                <a class="results-sort-item-button" href="#">
-                  <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_65008_55)">
-                    <path d="M4 0H0V6H4V0Z" fill="black"/>
-                    <path d="M16 0H12V6H16V0Z" fill="black"/>
-                    <path d="M10 0H6V6H10V0Z" fill="black"/>
-                    <path d="M4 8H0V14H4V8Z" fill="black"/>
-                    <path d="M16 8H12V14H16V8Z" fill="black"/>
-                    <path d="M10 8H6V14H10V8Z" fill="black"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0_65008_55">
-                    <rect width="16" height="14" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
+                <a class="results-sort-item-button button-table" href="#">
                   <span class="visually-hidden">Показать карточки</span></a>
               </li>
               <li class="results-sort-item">
-                <a class="results-sort-item-button" href="#">
-                  <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_54664_131)">
-                    <path d="M16 12H0V14H16V12Z" fill="black"/>
-                    <path d="M14 2V8H2V2H14ZM16 0H0V10H16V0Z" fill="black"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0_54664_131">
-                    <rect width="16" height="14" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
-                  <span class="visually-hidden">Показать крупно</span></a>
+                <a class="results-sort-item-button button-icon" href="#">
+                  <span class="visually-hidden">Показать иконку</span></a>
               </li>
               <li class="results-sort-item">
-                <a class="results-sort-item-button" href="#">
-                  <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_65008_93)">
-                    <path d="M2 0H0V2H2V0Z" fill="black"/>
-                    <path d="M16 0H4V2H16V0Z" fill="black"/>
-                    <path d="M2 4H0V6H2V4Z" fill="black"/>
-                    <path d="M16 4H4V6H16V4Z" fill="black"/>
-                    <path d="M2 8H0V10H2V8Z" fill="black"/>
-                    <path d="M16 8H4V10H16V8Z" fill="black"/>
-                    <path d="M2 12H0V14H2V12Z" fill="black"/>
-                    <path d="M16 12H4V14H16V12Z" fill="black"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0_65008_93">
-                    <rect width="16" height="14" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
+                <a class="results-sort-item-button button-list" href="#">
                   <span class="visually-hidden">Показать список</span></a>
               </li>
             </ul>
@@ -226,7 +169,7 @@
                 <span class="results-card-price">От 5000 ₽</span>
                 <a class="results-card-button-more button button-brown" href="#">Подробнее</a>
                 <a class="results-card-button-favorites button button-green" href="#">В избранном</a>
-                <span class="results-card-star-reit"></span>
+                <span class="results-card-star-reit reit-four-stars"></span>
                 <span class="results-card-reit button-grey">Рейтинг: 9,2</span>
              </div>
             </li>
@@ -240,7 +183,7 @@
                 <span class="results-card-price">От 2500 ₽</span>
                 <a class="results-card-button-more button button-brown" href="#">Подробнее</a>
                 <a class="results-card-button-favorites button button-blue" href="#">В избранное</a>
-                <span class="results-card-star-reit"></span>
+                <span class="results-card-star-reit reit-three-stars"></span>
                 <span class="results-card-reit button-grey">Рейтинг: 6,9</span>
               </div>
             </li>
@@ -254,7 +197,7 @@
                 <span class="results-card-price">От 1500 ₽</span>
                 <a class="results-card-button-more button button-brown" href="#">Подробнее</a>
                 <a class="results-card-button-favorites button button-blue" href="#">В избранное</a>
-                <span class="results-card-star-reit"></span>
+                <span class="results-card-star-reit reit-two-stars"></span>
                 <span class="results-card-reit button-grey">Рейтинг: 5,0</span>
               </div>
             </li>
