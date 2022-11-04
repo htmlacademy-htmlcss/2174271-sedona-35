@@ -95,31 +95,38 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="filter-catalog-price">
+            <fieldset class="filter-catalog-group filter-catalog-price">
               <legend class="filter-catalog-price-title">Стоимость, ₽:</legend>
-              <div class="filter-catalog-price-group">
-                  <label class="filter-range-control">
-                    <input class="control-range-input button" type="text" name="price-from" value="0">
-                    <span class="control-range-text">от</span>
-                  </label>
-                  <label class="filter-range-control">
-                    <input class="control-range-input button" type="text" name="price-to" value="9000">
-                    <span class="control-range-text">до</span>
-                  </label>
-              </div>
-              <div class="filter-catalog-range">
-                <button class="filter-button-range" type="submit">
-                  <span class="visually-hidden">Цена от</span>
-                </button>
-                <button class="filter-button-range" type="reset">
-                  <span class="visually-hidden">Цена до</span>
-                </button>
+              <div class="range">
+                <div class="filter-range-group">
+                    <label class="filter-range-control">
+                      <input class="control-range-input" type="text" name="price-from" value="0">
+                      <span class="control-range-text">от</span>
+                      <span class="control-range-background-left"></span>
+                    </label>
+                    <label class="filter-range-control">
+                      <input class="control-range-input" type="text" name="price-to" value="9000">
+                      <span class="control-range-text">до</span>
+                      <span class="control-range-background-right"></span>
+                    </label>
+                </div>
+                <div class="filter-catalog-range">
+                  <div class="filter-catalog-range-sliders">
+                    <button class="filter-button-range button-range-min" type="submit">
+                      <span class="visually-hidden">Цена от</span>
+                    </button>
+                    <button class="filter-button-range button-range-max" type="reset">
+                      <span class="visually-hidden">Цена до</span>
+                    </button>
+                  </div>
+                </div>
               </div>
             </fieldset>
               <div class="form-buttons">
                 <button class="form-button-submit button button-blue" type="submit">Применить</button>
                 <button class="form-button-reset button button-transparent" type="reset">Сбросить</button>
               </div>
+            </fieldset>
           </form>
         </section>
         <section class="results">

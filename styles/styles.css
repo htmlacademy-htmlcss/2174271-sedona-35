@@ -559,11 +559,12 @@ body {
 .filter {
   background-image: url('../images/background-filter.png.jpg');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  padding: 35px 70px 54px;
+  background-color: #82b3d3;
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 35px 70px 70px 70px;
 }
 
 .filter-head {
@@ -630,17 +631,15 @@ body {
   justify-content: space-around;
   list-style: none;
   padding-top: 40px;
+  max-width: 1080px;
 }
 
 .filter-catalog-group {
   border: 0;
   padding: 0 70px 0 0;
   border: none;
-  margin-bottom: 16px;
-  margin-right: auto;
+  margin: 0;
 }
-
-
 
 .filter-catalog-group-title {
   font-weight: 700;
@@ -716,7 +715,7 @@ body {
 }
 
 .filter-catalog-price {
-  width: 288px;
+  padding-left: 70px;
   border: 0;
 }
 
@@ -725,33 +724,134 @@ body {
   font-size: 20px;
   line-height: 24px;
   text-transform: capitalize;
+  padding-bottom: 32px;
 }
 
-.filter-catalog-price-group {
+.range {
+  display: block;
+}
+
+.filter-range-group {
+  display: flex;
+  margin-bottom: 48px;
 }
 
 .filter-range-control {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 143px;
+  min-height: 48px;
+  margin-right: 2px;
+  color: rgba(0, 0, 0, 0.3);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.filter-range-control:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+}
+
+.filter-range-control:nth-child(2) {
+  border-radius: 0 4px 4px 0;
 }
 
 .control-range-input {
+  width: 85px;
+  padding: 0 0 0 20px;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: start;
+  background-color: transparent;
+  border: none;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  z-index: 1;
 }
 
 .control-range-text {
-  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  max-width: 29px;
+  word-break: break-word;
   font-size: 18px;
   line-height: 24px;
-  color: #000000;
+}
+
+.control-range-background-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  border-radius: 4px 0 0 4px;
+  background-color: #f2f2f2;
+}
+
+.control-range-background-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  border-radius: 0 4px 4px 0;
+  background-color: #f2f2f2;
 }
 
 .filter-catalog-range {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255,255,255,0.3);
+  width: 287px;
+}
+
+.filter-catalog-range-sliders {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+  left: 0;
+  width: 226px;
 }
 
 .filter-button-range {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-range-min {
+  top: -8px;
+  left: 0;
+}
+
+.button-range-max {
+  top: -8px;
+  right: -10px;
 }
 
 .form-buttons {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 191px;
+  padding-top: 55px;
 }
 
 .form-button-submit {
@@ -762,6 +862,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding: 8px 50px;
+  padding: 8px;
+  width: 191px;
+  margin-bottom: 32px;
 }
 
 .form-button-reset {
@@ -773,6 +876,15 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   padding: 8px 50px;
+  width: 191px;
+  background-color: rgba(28,28,28,0);
+  border: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .results {
@@ -784,7 +896,6 @@ body {
 .results-sort {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
   width: auto;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -805,7 +916,7 @@ body {
 }
 
 .results-sort-select {
-  margin-left: 50px;
+  margin-right: 70px;
   width: 292px;
   padding: 12px 50px 12px 20px;
   font-family: inherit;
@@ -823,7 +934,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-
 }
 
 .results-sort-select-item {
