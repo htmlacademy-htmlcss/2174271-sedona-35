@@ -59,18 +59,18 @@
               <legend class="filter-catalog-group-title">Инфраструктура:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="pool" checked>
-                  <label class="filter-catalog-control">Бассейн
+                  <input class="filter-catalog-checkbox" id="swimming" type="checkbox" name="infrastructure" value="pool" checked>
+                  <label class="filter-catalog-control" for="swimming">Бассейн
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="parking" checked>
-                  <label class="filter-catalog-control">Парковка
+                  <input class="filter-catalog-checkbox" id="parking" type="checkbox" name="infrastructure" value="parking" checked>
+                  <label class="filter-catalog-control" for="parking">Парковка
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox" type="checkbox" name="infrastructure" value="wi-fi">
-                  <label class="filter-catalog-control">Wi-Fi
+                  <input class="filter-catalog-checkbox" id="wi-fi" type="checkbox" name="infrastructure" value="wi-fi">
+                  <label class="filter-catalog-control" for="wi-fi">Wi-Fi
                   </label>
                 </li>
               </ul>
@@ -79,18 +79,18 @@
               <legend class="filter-catalog-group-title">Тип жилья:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio" type="radio" name="type-of-housing" value="hotel" checked>
-                  <label class="filter-catalog-radio-label">Гостиница
+                  <input class="filter-control-radio" id="hotel" type="radio" name="type-of-housing" value="hotel" checked>
+                  <label class="filter-catalog-radio-label" for="hotel">Гостиница
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio" type="radio" name="type-of-housing" value="motel">
-                  <label class="filter-catalog-radio-label">Мотель
+                  <input class="filter-control-radio" id="motel" type="radio" name="type-of-housing" value="motel">
+                  <label class="filter-catalog-radio-label" for="motel">Мотель
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio" type="radio" name="type-of-housing" value="apartment">
-                  <label class="filter-catalog-radio-label">Апартаменты
+                  <input class="filter-control-radio" id="apartment" type="radio" name="type-of-housing" value="apartment">
+                  <label class="filter-catalog-radio-label" for="apartment">Апартаменты
                   </label>
                 </li>
               </ul>
@@ -99,13 +99,13 @@
               <legend class="filter-catalog-price-title">Стоимость, ₽:</legend>
               <div class="range">
                 <div class="filter-range-group">
-                    <label class="filter-range-control">
-                      <input class="control-range-input" type="text" name="price-from" value="0">
+                    <label class="filter-range-control" for="price-from">
+                      <input class="control-range-input" id="price-from" type="text" name="price-from" value="0">
                       <span class="control-range-text">от</span>
                       <span class="control-range-background-left"></span>
                     </label>
-                    <label class="filter-range-control">
-                      <input class="control-range-input" type="text" name="price-to" value="9000">
+                    <label class="filter-range-control" for="price-to">
+                      <input class="control-range-input" id="price-to" type="text" name="price-to" value="9000">
                       <span class="control-range-text">до</span>
                       <span class="control-range-background-right"></span>
                     </label>
