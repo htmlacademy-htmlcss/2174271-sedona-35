@@ -597,6 +597,11 @@ body {
   line-height: 24px;
 }
 
+.subscribe-form-input:focus-visible {
+  outline: solid 3px #83b3d3;
+  outline-offset: -3px;
+}
+
 .subscribe-form-button {
   font-weight: 700;
   font-size: 20px;
