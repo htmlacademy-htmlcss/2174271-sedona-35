@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона. Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link type="image/x-icon" href="images/favicon.svg" rel="shortcut icon">
+    <link rel="shortcut-icon" type="image/png" href="favicon.png">
   </head>
-
   <body>
     <div class="container">
       <header class="header">
@@ -63,19 +62,19 @@
               <legend class="filter-catalog-group-title">Инфраструктура:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox" id="swimming" type="checkbox" name="infrastructure"
+                  <input class="filter-catalog-checkbox visually-hidden" id="swimming" type="checkbox" name="infrastructure"
                     value="pool" checked>
                   <label class="filter-catalog-control" for="swimming">Бассейн
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox" id="parking" type="checkbox" name="infrastructure"
+                  <input class="filter-catalog-checkbox visually-hidden" id="parking" type="checkbox" name="infrastructure"
                     value="parking" checked>
                   <label class="filter-catalog-control" for="parking">Парковка
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox" id="wi-fi" type="checkbox" name="infrastructure" value="wi-fi">
+                  <input class="filter-catalog-checkbox visually-hidden" id="wi-fi" type="checkbox" name="infrastructure" value="wi-fi">
                   <label class="filter-catalog-control" for="wi-fi">Wi-Fi
                   </label>
                 </li>
@@ -85,18 +84,18 @@
               <legend class="filter-catalog-group-title">Тип жилья:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio" id="hotel" type="radio" name="type-of-housing" value="hotel"
+                  <input class="filter-control-radio visually-hidden" id="hotel" type="radio" name="type-of-housing" value="hotel"
                     checked>
                   <label class="filter-catalog-radio-label" for="hotel">Гостиница
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio" id="motel" type="radio" name="type-of-housing" value="motel">
+                  <input class="filter-control-radio visually-hidden" id="motel" type="radio" name="type-of-housing" value="motel">
                   <label class="filter-catalog-radio-label" for="motel">Мотель
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio" id="apartment" type="radio" name="type-of-housing"
+                  <input class="filter-control-radio visually-hidden" id="apartment" type="radio" name="type-of-housing"
                     value="apartment">
                   <label class="filter-catalog-radio-label" for="apartment">Апартаменты
                   </label>
@@ -171,7 +170,7 @@
                 <span class="results-card-price">От 4000 ₽</span>
                 <a class="results-card-button-more button button-brown" href="#">Подробнее</a>
                 <a class="results-card-button-favorites button button-blue" href="#">В избранное</a>
-                <span class="results-card-star-reit reit-four-stars"></span>
+                <span class="results-card-star-reit reit-five-stars "></span>
                 <span class="results-card-reit button-grey">Рейтинг: 8,5</span>
               </div>
             </li>
@@ -252,7 +251,7 @@
               <span class="visually-hidden">Ваш e-mail</span>
               <input class="subscribe-form-input" type="text" placeholder="Ваш e-mail">
             </label>
-            <button class="subscribe-form-button button button-blue" type="submit">Подписаться</button>
+            <button class="subscribe-form-button button button-blue" type="button">Подписаться</button>
           </form>
         </section>
       </main>
