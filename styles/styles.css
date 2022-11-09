@@ -341,8 +341,8 @@ body {
 
 .advantages-header {
   padding: 68px 272px 91px 272px;
-  max-width: 1200px;
-  max-height: 282px;
+  min-width: 1200px;
+  min-height: 282px;
 }
 
 .advantages-title {
