@@ -1154,14 +1154,12 @@ body {
 .results-sort-item-button:focus {
   border: 2px solid #68a2ca;
   border-radius: 4px;
-
 }
 
-.button-table:active {
+.results-sort-item-button:active {
   border: 2px solid #000000;
   border-radius: 4px;
 }
-
 
 .button-icon {
   background-image: url("../images/view-icon.svg");
@@ -1340,6 +1338,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, 60px);
   gap: 8px;
+  cursor: pointer;
 }
 
 .pagination-link {
@@ -1379,12 +1378,40 @@ body {
   color: #000000;
 }
 
+.pagination-current:hover {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.pagination-current:focus {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.pagination-current:active {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
 .pagination-divider {
   background-color: #ffffff;
   color: #000000;
 }
 
-/*footer после страницы каталога*/
+.pagination-divider:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.pagination-divider:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.pagination-divider:active {
+  background-color: #ffffff;
+  color: #000000;
+}
 
 .footer {
   display: flex;
@@ -1599,6 +1626,8 @@ body {
   line-height: 24px;
   color: #000000;
   padding: 12px 60px 12px 20px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
 }
 
 .modal-search-input {
