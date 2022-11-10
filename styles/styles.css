@@ -1210,6 +1210,7 @@ body {
   padding: 0;
   line-height: 0;
   text-decoration: none;
+  max-width: 300px;
 }
 
 .results-card-link:hover {
@@ -1466,7 +1467,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #000000;
-  padding-left: 237px;
+  margin-left: 237px;
 }
 
 .footer-phone-link:hover {
