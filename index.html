@@ -207,8 +207,8 @@
               <label class="visually-hidden" for="date-arrival">Дата заезда.</label>
               <!-- Для показа сообщения об ошибке элементу с классом modal-input-wrapper нужно добавить класс has-error -->
               <div class="modal-input-wrapper">
-                <input required class="modal-search-input-date" id="date-arrival" type="text" name="arrival"
-                  value="27 апреля 2020">
+                <input class="modal-search-input-date" id="date-arrival" type="text" name="arrival"
+                  value="27 апреля 2020" required>
                 <span class="visually-hidden">Календарь.</span>
                 <span class="modal-error">Мы не можем отправить вас в прошлое.</span>
               </div>
@@ -218,8 +218,8 @@
               <label class="visually-hidden" for="data-departure">Дата выезда.</label>
               <!-- Для показала сообщения о свободных датах элементу с классом modal-input-wrapper нужно добавить класс has-clue -->
               <div class="modal-input-wrapper">
-                <input required class="modal-search-input-date" id="data-departure" type="text" name="departure"
-                  value="1 сентября 2023">
+                <input class="modal-search-input-date" id="data-departure" type="text" name="departure"
+                  value="1 сентября 2023" required>
                 <span class="visually-hidden">Календарь.</span>
                 <span class="modal-message">На эти даты есть свободные номера. Пока есть.</span>
               </div>
@@ -236,7 +236,7 @@
                     </svg>
                     <span class="visually-hidden">Минус.</span>
                   </button>
-                  <input required class="modal-search-input" id="adults" type="text" name="adults" value="2">
+                  <input class="modal-search-input" id="adults" type="text" name="adults" value="2" required>
                   <button class="modal-counter-button" type="button">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg">
@@ -263,7 +263,7 @@
                     </svg>
                     <span class="visually-hidden">Минус.</span>
                   </button>
-                  <input required class="modal-search-input" id="children" type="text" name="children" value="2">
+                  <input class="modal-search-input" id="children" type="text" name="children" value="2" required>
                   <button class="modal-counter-button" type="button">
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
                       xmlns="http://www.w3.org/2000/svg">
