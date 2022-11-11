@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="shortcut-icon" type="image/png" href="favicon.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
   <body>
     <div class="container">
@@ -15,7 +16,7 @@
           </a>
           <ul class="header-navigation-list">
             <li class="header-navigation-item">
-              <a class="header-navigation-link navigation-link-activ" href="index.html">Главная</a>
+              <a class="header-navigation-link navigation-link-active" href="index.html">Главная</a>
             </li>
             <li class="header-navigation-item">
               <a class="header-navigation-link" href="#">О седоне</a>
@@ -28,7 +29,6 @@
         <ul class="header-user-container">
           <li class="header-user-control">
             <a class="header-user-search" href="#">
-
               <span class="visually-hidden">Поиск.</span>
             </a>
           </li>
@@ -39,7 +39,7 @@
           </li>
           <li class="header-user-control">
             <a class="header-user-booking button button-brown" href="#">
-              <span сlass="header-user-booking-text">Хочу сюда!</span>
+              <span class="header-user-booking-text">Хочу сюда!</span>
             </a>
           </li>
         </ul>
@@ -91,11 +91,13 @@
             </li>
             <li class="service-list-item service-list-item-meal">
               <h3 class="service-item-title">Еда</h3>
-              <p class="service-item-description">Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!</p>
+              <p class="service-item-description">Всегда заказывайте <br> топовый фирменный бургер, <br> вы не
+                разочаруетесь!</p>
             </li>
             <li class="service-list-item service-list-item-souvenir">
               <h3 class="service-item-title">Сувениры</h3>
-              <p class="service-item-description">Не только китайского, <br> но и настоящего местного <br> производства!</p>
+              <p class="service-item-description">Не только китайского, <br> но и настоящего местного <br> производства!
+              </p>
             </li>
           </ul>
         </section>
@@ -205,7 +207,8 @@
               <label class="visually-hidden" for="date-arrival">Дата заезда.</label>
               <!-- Для показа сообщения об ошибке элементу с классом modal-input-wrapper нужно добавить класс has-error -->
               <div class="modal-input-wrapper">
-                <input  required class="modal-search-input-date" id="date-arrival" type="text" name="arrival" value="27 апреля 2020">
+                <input required class="modal-search-input-date" id="date-arrival" type="text" name="arrival"
+                  value="27 апреля 2020">
                 <span class="visually-hidden">Календарь.</span>
                 <span class="modal-error">Мы не можем отправить вас в прошлое.</span>
               </div>
@@ -215,7 +218,8 @@
               <label class="visually-hidden" for="data-departure">Дата выезда.</label>
               <!-- Для показала сообщения о свободных датах элементу с классом modal-input-wrapper нужно добавить класс has-clue -->
               <div class="modal-input-wrapper">
-                <input required class="modal-search-input-date" id="data-departure" type="text" name="departure" value="1 сентября 2023">
+                <input required class="modal-search-input-date" id="data-departure" type="text" name="departure"
+                  value="1 сентября 2023">
                 <span class="visually-hidden">Календарь.</span>
                 <span class="modal-message">На эти даты есть свободные номера. Пока есть.</span>
               </div>
@@ -224,21 +228,23 @@
               <div class="modal-search-group modal-search-group-adults">
                 <p class="modal-search-title">Взрослые:</p>
                 <label class="visually-hidden" for="adults">Взрослые.</label>
-                  <div class="modal-counter">
-                    <button class="modal-counter-button" type="button">
-                      <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor"/>
-                      </svg>
-                      <span class="visually-hidden">Минус.</span>
-                    </button>
-                    <input required class="modal-search-input" id="adults" type="text" name="adults" value="2">
-                    <button class="modal-counter-button" type="button">
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <div class="modal-counter">
+                  <button class="modal-counter-button" type="button">
+                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor" />
+                    </svg>
+                    <span class="visually-hidden">Минус.</span>
+                  </button>
+                  <input required class="modal-search-input" id="adults" type="text" name="adults" value="2">
+                  <button class="modal-counter-button" type="button">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="currentColor" />
-                      </svg>
-                      <span class="visually-hidden">Плюс.</span>
-                    </button>
-                  </div>
+                    </svg>
+                    <span class="visually-hidden">Плюс.</span>
+                  </button>
+                </div>
               </div>
               <div class="modal-search-group modal-search-group-children">
                 <div class="modal-search-group-item">
@@ -251,15 +257,17 @@
                 <label class="visually-hidden" for="children">Дети.</label>
                 <div class="modal-counter">
                   <button class="modal-counter-button" type="button">
-                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor7"/>
+                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="currentColor7" />
                     </svg>
                     <span class="visually-hidden">Минус.</span>
                   </button>
                   <input required class="modal-search-input" id="children" type="text" name="children" value="2">
                   <button class="modal-counter-button" type="button">
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="currentColor"/>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="currentColor" />
                     </svg>
                     <span class="visually-hidden">Плюс.</span>
                   </button>

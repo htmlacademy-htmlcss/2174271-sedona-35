@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона. Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="shortcut-icon" type="image/png" href="favicon.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
   <body>
     <div class="container">
@@ -21,7 +22,7 @@
               <a class="header-navigation-link" href="#">О седоне</a>
             </li>
             <li class="header-navigation-item">
-              <a class="header-navigation-link navigation-link-activ" href="catalog.html">Гостиницы</a>
+              <a class="header-navigation-link navigation-link-active" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
         </nav>
@@ -38,7 +39,7 @@
             </a>
           </li>
           <li class="header-user-control">
-            <a class="header-user-booking button button-brown" href="#"><span сlass="header-user-booking-text">Хочу
+            <a class="header-user-booking button button-brown" href="#"><span class="header-user-booking-text">Хочу
                 сюда!</span></a>
           </li>
         </ul>
@@ -49,10 +50,10 @@
             <h1 class="filter-head-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link-icon" href="index.html"></a>
+                <a class="breadcrumbs-link breadcrumbs-link-icon" href="index.html"></a>
               </li>
-              <li class="breadcrumbs-item-page">
-                <a class="breadcrumbs-link-page" href="catalog.html">Гостиницы</a>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link breadcrumbs-link-current">Гостиницы</a>
               </li>
             </ul>
           </div>
@@ -61,19 +62,20 @@
               <legend class="filter-catalog-group-title">Инфраструктура:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox visually-hidden" id="swimming" type="checkbox" name="infrastructure"
-                    value="pool" checked>
+                  <input class="filter-catalog-checkbox visually-hidden" id="swimming" type="checkbox"
+                    name="infrastructure" value="pool" checked>
                   <label class="filter-catalog-control" for="swimming">Бассейн
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox visually-hidden" id="parking" type="checkbox" name="infrastructure"
-                    value="parking" checked>
+                  <input class="filter-catalog-checkbox visually-hidden" id="parking" type="checkbox"
+                    name="infrastructure" value="parking" checked>
                   <label class="filter-catalog-control" for="parking">Парковка
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-catalog-checkbox visually-hidden" id="wi-fi" type="checkbox" name="infrastructure" value="wi-fi">
+                  <input class="filter-catalog-checkbox visually-hidden" id="wi-fi" type="checkbox"
+                    name="infrastructure" value="wi-fi">
                   <label class="filter-catalog-control" for="wi-fi">Wi-Fi
                   </label>
                 </li>
@@ -83,13 +85,14 @@
               <legend class="filter-catalog-group-title">Тип жилья:</legend>
               <ul class="filter-catalog-list">
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio visually-hidden" id="hotel" type="radio" name="type-of-housing" value="hotel"
-                    checked>
+                  <input class="filter-control-radio visually-hidden" id="hotel" type="radio" name="type-of-housing"
+                    value="hotel" checked>
                   <label class="filter-catalog-radio-label" for="hotel">Гостиница
                   </label>
                 </li>
                 <li class="filter-catalog-item">
-                  <input class="filter-control-radio visually-hidden" id="motel" type="radio" name="type-of-housing" value="motel">
+                  <input class="filter-control-radio visually-hidden" id="motel" type="radio" name="type-of-housing"
+                    value="motel">
                   <label class="filter-catalog-radio-label" for="motel">Мотель
                   </label>
                 </li>
@@ -108,12 +111,10 @@
                   <label class="filter-range-control" for="price-from">
                     <input class="control-range-input" id="price-from" type="text" name="price-from" value="0">
                     <span class="control-range-text">от</span>
-                    <span class="control-range-background-left"></span>
                   </label>
                   <label class="filter-range-control" for="price-to">
                     <input class="control-range-input" id="price-to" type="text" name="price-to" value="9000">
                     <span class="control-range-text">до</span>
-                    <span class="control-range-background-right"></span>
                   </label>
                 </div>
                 <div class="filter-catalog-range">
@@ -143,7 +144,7 @@
             </select>
             <ul class="results-sort-list">
               <li class="results-sort-item">
-                <a class="results-sort-item-button button-table" href="#">
+                <a class="results-sort-item-button results-sort-item-button-current button-table" href="#">
                   <span class="visually-hidden">Показать карточки.</span></a>
               </li>
               <li class="results-sort-item">
