@@ -1802,7 +1802,7 @@ body {
 .modal-prompt-text {
   position: absolute;
   top: 41px;
-  left: -123px;
+  left: 50%;
   min-width: 256px;
   min-height: 143px;
   font-family: 'PT Sans';
@@ -1811,7 +1811,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  opacity: 0;
+  transform: translateX(-50%);
+  display: none;
   background: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -1825,11 +1826,11 @@ body {
   width: 19px;
   height: 19px;
   background: #333333;
-  transform: rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
   top: -6px;
-  left: 120px;
+  left: 50%;
 }
 
-.modal-prompt:hover > .modal-prompt-text {
-  opacity: 1;
+.modal-prompt:hover .modal-prompt-text {
+  display: block;
 }
